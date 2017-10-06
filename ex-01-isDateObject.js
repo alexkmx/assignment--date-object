@@ -2,7 +2,13 @@
  *     Write a JavaScript function to check whether an input is a date object or not
  */
 
+function isDate(fecha) {
+if(typeof fecha === 'string'){
+  return false
+}
 
+return true
+}
 
 
 

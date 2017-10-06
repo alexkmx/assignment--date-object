@@ -4,7 +4,41 @@
  *     Hint: You might want to use `.getMonth()` function from `Date` object
  */
 
+function getMonthName(monthName) {
+  var myDate = monthName.getMonth()
+if(myDate === 0) {
+  return 'January'
+}else if( myDate === 1) {
+  return 'February'
+} else if (myDate === 2) {
+  return 'March'
+} else if(myDate === 3) {
+  return 'April'
+} else if(myDate === 4) {
+  return 'May'
+}else if(myDate === 5) {
+  return 'June'
+} else if(myDate == 6) {
+  return 'July'
+} else if(myDate === 7) {
+  return 'August'
+}else if(myDate === 8) {
+  return 'September'
+}else if (myDate === 9) {
+  return 'October'
+}else if(myDate === 10) {
+  return 'November'
+}else if (myDate === 11) {
+  return 'December'
+}
 
+
+
+  console.log(myDate);
+
+
+
+}
 
 
 
